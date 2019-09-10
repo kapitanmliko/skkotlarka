@@ -1,0 +1,12 @@
+- name: Atletika
+  image: ./assets/images/atle.png
+  link: http://www.skkotlarka.net/
+- name: Baseball
+  image: ./assets/images/base.png
+  link: https://skkotlarka.cz/baseball
+- name: Softball
+  image: ./assets/images/soft.png
+  link: https://skkotlarka.cz/softball
+- name: Stolní tenis
+  image: ./assets/images/stol.png
+  link: https://www.kotlarkapinec.cz/

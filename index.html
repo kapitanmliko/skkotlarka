@@ -1,5 +1,15 @@
 ---
 title: SK Kotářka
-layout: default
 ---
-<h1>{{ "Již brzy!" | downcase }}</h1>
+<div class="sport_tiles_container">
+    {% for item in site.data.sports %}
+        <a href="{{ item.link }}">
+            <div class="sport_tile">
+                <img src="{{ item.image }}" class="sport_tile_img"/>
+                <div class="sport_tile_content">
+                    <h1>{{ item.name }}</h1>
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>

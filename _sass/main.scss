@@ -1,4 +1,22 @@
 .current {
     color: green;
 }
+
+.sport_tiles_container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    .sport_tile{
+        flex: 0 50%;
+        .sport_tile_img{
+            width: 200px;
+            height: 200px;
+        }
+
+        .sport_tile_content{
+            width: 200;
+            background-color: red;
+        }
+    }
+}
   
