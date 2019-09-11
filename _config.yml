@@ -28,7 +28,7 @@ twitter_username: kapitanmliko
 github_username:  kapitanmliko
 
 # Build settings
-# theme: minima
+theme: minima
 
 defaults:
   - scope:
