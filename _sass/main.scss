@@ -2,6 +2,9 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
   background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .logo {
@@ -9,6 +12,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.site_content{
+  flex: 1 0 auto;
 }
 
 .sport_tiles_container {
