@@ -1,6 +1,7 @@
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  background-color: $background-color;
 }
 
 .logo {
@@ -25,12 +26,14 @@ body {
     color: $secondary-color;
     font-size: 28px;
     font-weight: bold;
+    min-width: 480px;
     margin: 10px;
-    flex: 1 1 45%;
+    flex: 1 0 45%;
     display: flex;
     flex-wrap: nowrap;
 
     .sport_tile_img {
+      min-width: 200px;
       width: 200px;
       height: 200px;
     }
