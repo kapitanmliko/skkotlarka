@@ -4,7 +4,7 @@
   padding: 0;
   overflow: hidden;
   background-color: $secondary-background-color;
-  box-shadow: $box-shadow;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); 
   // border-bottom: 1px solid $separator-color;
 
   .logo {
