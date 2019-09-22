@@ -1,5 +1,9 @@
 <ul class="nav">
     {% for item in site.data.navigation %}
-        <li><a href="{{ item.link }}" {% if page.url==item.link %}class="active" {% endif %}>{{ item.name }}</a></li>
-    {% endfor %}
+        {% if item.image %}
+            <li><a href="{{ item.link }}"><img src="{{ item.image }}" class="logo" /></a></li>
+        {% else %}
+            <li><a href="{{ item.link }}" {% if page.url==item.link %}class="active" {% endif %}>{{ item.name }}</a></li>
+        {% endif %}
+    {% endfor %} 
 </ul>

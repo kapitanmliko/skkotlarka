@@ -5,9 +5,13 @@
   overflow: hidden;
   background-color: $secondary-background-color;
   box-shadow: $box-shadow;
-  padding-left: 30px;
-  padding-top: 10px;
   // border-bottom: 1px solid $separator-color;
+
+  .logo {
+    padding: 10px 30px 10px 50px;
+    max-height: 50px;
+    width: auto;
+  }
 
   li {
     float: left;
@@ -16,15 +20,16 @@
       display: block;
       color: $nav-foreground-color;
       text-align: center;
-      padding: 10px 20px;
       text-decoration: none;
       font-size: 18px;
       border-bottom: 0px solid $background-color;
+      padding-bottom: 2px;
     }
 
     a:hover:not(.active) {
       color: $nav-active-color;
       border-bottom: 2px solid $theme-color;
+      padding-bottom: 0px;
     }
   }
 
