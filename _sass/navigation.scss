@@ -23,7 +23,6 @@
 
     a:hover:not(.active) {
       color: $nav-active-color;
-      // background-color: $theme-color;
       border-bottom: 2px solid $theme-color;
     }
   }
@@ -34,7 +33,6 @@
 
   .active {
     color: $nav-active-color;
-    // background-color: $theme-color;
     border-bottom: 2px solid $theme-color;
   }
 }

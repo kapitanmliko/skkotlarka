@@ -36,7 +36,8 @@ body {
   
     .sport_tile {
       text-decoration: none;
-      color: $secondary-color;
+      box-shadow: $box-shadow;
+      color: $primary-color;
       font-size: 28px;
       font-weight: bold;
       min-width: 480px;
@@ -54,7 +55,7 @@ body {
       .sport_tile_content {
         flex: 1 1 100%;
         min-width: 280px;
-        background-color: $theme-color;
+        background-color: $secondary-background-color;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -76,7 +77,8 @@ body {
   
     .sport_tile {
       text-decoration: none;
-      color: $secondary-color;
+      box-shadow: $box-shadow;
+      color: $primary-color;
       font-size: 20px;
       font-weight: bold;
       margin: 10px;
@@ -91,7 +93,7 @@ body {
   
       .sport_tile_content {
         flex: 1 0 100%;
-        background-color: $theme-color;
+        background-color: $secondary-background-color;
         display: flex;
         align-items: center;
         justify-content: center;
