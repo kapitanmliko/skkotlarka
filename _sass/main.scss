@@ -1,8 +1,17 @@
 html {
   display: flex;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,*:before,*:after{
+  box-sizing: inherit
 }
 
 body {
+  margin: 0;
   font: 100% $font-stack;
   color: $primary-color;
   background-color: $background-color;
@@ -23,3 +32,10 @@ body {
   flex: 1 0 auto;
 }
 
+.section_heading_container{
+  padding: 30px 20px;
+}
+
+.section_heading{
+  border-bottom: 1px solid #ccc!important;
+}
