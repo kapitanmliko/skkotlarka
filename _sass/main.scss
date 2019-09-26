@@ -32,10 +32,32 @@ body {
   flex: 1 0 auto;
 }
 
-.section_heading_container{
-  padding: 30px 20px;
+.sections_container{
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding: 32px 50px;
 }
 
 .section_heading{
-  border-bottom: 1px solid #ccc!important;
+  padding: 0px 10px;
+  font-size: 26px;
+  h1{
+    font: 100% $font-stack2;
+    padding: 12px 0px;
+    border-bottom: 1px solid $separator-color!important;
+  }
+}
+
+.header{
+  margin-left: auto;
+  margin-right: auto;
+
+  img{
+    width: 100%;
+    height: auto;
+  }
 }

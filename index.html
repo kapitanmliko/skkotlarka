@@ -1,17 +1,25 @@
 ---
 title: SK Kotlářka
 ---
-<!-- <div class="section_heading_container">
-    <h1 class="section_heading">Sporty</h1>
-</div> -->
-<div class="sport_tiles_container">
-    {% for item in site.data.sports %}
-    <a href="{{ item.link }}" class="sport_tile">
-        <img src="{{ item.image }}" class="sport_tile_img" />
-        <div class="sport_tile_content">
-            <h1>{{ item.name }}</h1>
+<header class="header">
+        <img src="./assets/images/stadion.png" alt="stadion kotlarka" />
+</header>
+<div class="sections_container">
+    <div class="section">
+        <div class="section_heading">
+            <h1>Sportovní oddíly</h1>
         </div>
-    </a>
-    {% endfor %}
+        <div class="sport_tiles_container">
+            {% for item in site.data.sports %}
+            <a href="{{ item.link }}" class="sport_tile">
+                <img src="{{ item.image }}" class="sport_tile_img" />
+                <div class="sport_tile_content">
+                    <h1>{{ item.name }}</h1>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
 </div>
+
 {% include map.html %}

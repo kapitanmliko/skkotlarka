@@ -1,4 +1,8 @@
 .nav {
+  // position: fixed;
+  // top: 0;
+  // width: 100%;
+  // z-index: 1;
   flex-shrink: 0;
   list-style-type: none;
   margin: 0;
@@ -9,8 +13,8 @@
   // border-bottom: 1px solid $separator-color;
 
   .logo {
-    padding: 10px 30px 10px 50px;
-    max-height: 50px;
+    padding: 10px 30px 10px 55px;
+    max-height: 70px;
     width: auto;
   }
 

@@ -2,20 +2,27 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 100px 50px;
+    margin: 20px 0px;
 }
 
 .sport_tile{
     position: relative;
     margin: 10px;
     flex: 1 0 200px;
-    max-width: 300px;
+    max-width: 320px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 980px) {
     .sport_tile {
         flex: 1 0 300px;
-        max-width: 400px;
+        max-width: 420px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .sport_tile {
+        flex: 1 0 200px;
+        max-width: 420px;
     }
 }
 
