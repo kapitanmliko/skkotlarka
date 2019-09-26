@@ -8,21 +8,21 @@
 .sport_tile{
     position: relative;
     margin: 10px;
-    flex: 1 0 200px;
-    max-width: 320px;
+    flex: 0 1 320px;
+    max-width: 200px;
 }
 
 @media only screen and (max-width: 980px) {
     .sport_tile {
-        flex: 1 0 300px;
-        max-width: 420px;
+        flex: 0 1 420px;
+        max-width: 300px;
     }
 }
 
 @media only screen and (max-width: 740px) {
     .sport_tile {
-        flex: 1 0 200px;
-        max-width: 420px;
+        flex: 0 1 420px;
+        max-width: 200px;
     }
 }
 
