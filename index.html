@@ -11,12 +11,14 @@ title: SK Kotlářka
         </div>
         <div class="sport_tiles_container">
             {% for item in site.data.sports %}
-            <a href="{{ item.link }}" class="sport_tile">
-                <img src="{{ item.image }}" class="sport_tile_img" />
-                <div class="sport_tile_content">
-                    <h1>{{ item.name }}</h1>
-                </div>
-            </a>
+            <div class="sport_tile_wrapper">
+                <a href="{{ item.link }}" class="sport_tile">
+                    <img src="{{ item.image }}" class="sport_tile_img" />
+                    <div class="sport_tile_content">
+                        <h1>{{ item.name }}</h1>
+                    </div>
+                </a>
+            </div>
             {% endfor %}
         </div>
     </div>
