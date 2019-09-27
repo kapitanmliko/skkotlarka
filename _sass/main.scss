@@ -30,11 +30,11 @@ body {
 }
 
 .section {
-  padding: 32px 50px;
+  padding: 0px 50px;
 }
 
 .section_heading{
-  padding: 0px 10px;
+  padding: 32px 10px;
   font-size: 26px;
   h1{
     font: 100% $font-stack2;
@@ -43,12 +43,23 @@ body {
   }
 }
 
+.section_content{
+  padding: 0px 10px;
+  p{
+    margin: 20px 0px;
+    font: 100% $font-stack;
+    font-size: 20px;
+  }
+}
+
 .header{
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 
   img{
     width: 100%;
     height: auto;
+    vertical-align: middle;
   }
 }
