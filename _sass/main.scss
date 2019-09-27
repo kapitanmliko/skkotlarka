@@ -1,14 +1,14 @@
 html {
   display: flex;
-  //box-sizing: border-box;
+  box-sizing: border-box;
   overflow-x: hidden;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-// *,*:before,*:after{
-//   box-sizing: inherit
-// }
+*,*:before,*:after{
+  box-sizing: inherit
+}
 
 body {
   margin: 0;
