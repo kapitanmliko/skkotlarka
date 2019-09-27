@@ -3,13 +3,8 @@
   top: 0;
   width: 100%;
   z-index: 1;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   background-color: $secondary-background-color;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); 
-  // border-bottom: 1px solid $separator-color;
 
   .logo {
     padding: 10px 30px 10px 55px;
@@ -36,10 +31,6 @@
       padding-bottom: 0px;
     }
   }
-
-  // li:last-child {
-  //   float: right;
-  // }
 
   .active {
     color: $nav-active-color;
