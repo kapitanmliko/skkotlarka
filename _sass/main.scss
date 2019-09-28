@@ -1,5 +1,5 @@
 html {
-  display: flex;
+  display: block;
   box-sizing: border-box;
   overflow-x: hidden;
   -ms-text-size-adjust: 100%;
@@ -11,19 +11,16 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  height: 100vh;
-  width: 100%;
+  display: block;
   margin: 0;
   font: 100% $font-stack;
   color: $primary-color;
   background-color: $background-color;
+  min-height: 100vh;
+  height: 100vh;
 }
 
 .site_content {
-  flex-grow: 1;
 }
 
 .sections_container{
