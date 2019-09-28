@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  height: 100vh;
   width: 100%;
   margin: 0;
   font: 100% $font-stack;
@@ -23,7 +22,7 @@ body {
 }
 
 .site_content {
-  flex: 1 0 auto;
+  flex-grow: 1;
 }
 
 .sections_container{
