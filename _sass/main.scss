@@ -1,6 +1,7 @@
 html {
   display: flex;
   box-sizing: border-box;
+  overflow-x: hidden;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -12,7 +13,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   margin: 0;
   font: 100% $font-stack;
