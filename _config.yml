@@ -30,6 +30,10 @@ github_username:  kapitanmliko
 # Build settings
 theme: minima
 
+collections:
+  sports:
+    output: true
+
 defaults:
   - scope:
       path: ""
