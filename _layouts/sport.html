@@ -9,14 +9,17 @@ layout: default
         </div>
         <div class="section_content">
             <!-- TODO -->
-            {{ content | markdownify }}
-            <!-- <ul>
-                {% for category in site.data[page.ident].categories %}
-                <li>
-                    {{ category.name }}
-                </li>
-                {% endfor %}
-            </ul> -->
+            <p>
+                {{ page.desc }}
+            </p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section_heading">
+            <h1>Kategorie</h1>
+        </div>            
+        <div class="section_content">
+            {{ content }}
         </div>
     </div>
 </div>

@@ -33,8 +33,20 @@ theme: minima
 collections:
   sports:
     output: true
+  softball:
+    output: true
+    sort_by: sort_number
+    order:
+      - zakyne.md
+      - kadetky.md
+      - juniroky.md
 
 defaults:
+  - scope:
+      path: ""
+      type: "softball"
+    values:
+      layout: "team"
   - scope:
       path: ""
     values:

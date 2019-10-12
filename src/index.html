@@ -10,17 +10,19 @@ permalink: /
         <div class="section_heading">
             <h1>Sportovní oddíly</h1>
         </div>
-        <div class="sport_tiles_container">
-            {% for item in site.data.sports %}
-            <div class="sport_tile_wrapper">
-                <a href="{{ item.link }}" class="sport_tile">
-                    <img src="{{ item.image }}" class="sport_tile_img" />
-                    <div class="sport_tile_content">
-                        <h1>{{ item.name }}</h1>
+        <div class="section_content">
+            <div class="sport_tiles_container">
+                {% for item in site.data.sports %}
+                    <div class="sport_tile_wrapper">
+                        <a href="{{ item.link }}" class="sport_tile">
+                            <img src="{{ item.image }}" class="sport_tile_img" />
+                            <div class="sport_tile_content">
+                                <h1>{{ item.name }}</h1>
+                            </div>
+                        </a>
                     </div>
-                </a>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
     <div class="section">
