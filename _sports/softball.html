@@ -5,13 +5,13 @@ desc: Softball je sport pro všechny a my ho na kotlářce hrajeme už od roku 1
 layout: sport
 permalink: /softball
 ---
-<div class="sport_tiles_container">
+<div class="category_tiles_container">
     {% assign categories = site[page.ident] | sort: 'sort_number'  %}
     {% for category in categories %}
-        <div class="sport_tile_wrapper">
-            <a href="{{ category.url }}" class="sport_tile">
-                <img src="/assets/images/soft.png" class="sport_tile_img" />
-                <div class="sport_tile_content">
+        <div class="category_tile_wrapper">
+            <a href="{{ category.url }}" class="category_tile">
+                <img src="/assets/images/softball/becko.png" class="category_tile_img" />
+                <div class="category_tile_content">
                     <h1>{{ category.name }}</h1>
                 </div>
             </a>
