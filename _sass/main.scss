@@ -37,7 +37,7 @@ body {
 }
 
 .section_heading{
-  padding: 42px 10px 32px 10px;
+  padding: 42px 0px 32px 0px;
   font-size: 26px;
   h1{
     font: 100% $font-stack2;
@@ -47,7 +47,7 @@ body {
 }
 
 .section_content{
-  padding: 10px;
+  // padding: 10px;
   p{
     font: 100% $font-stack;
     font-size: 20px;
