@@ -35,11 +35,11 @@ collections:
     output: true
   softball:
     output: true
-    sort_by: sort_number
-    order:
-      - zakyne.md
-      - kadetky.md
-      - juniroky.md
+    # sort_by: sort_number
+    # order:
+    #   - zakyne.md
+    #   - kadetky.md
+    #   - juniroky.md
 
 defaults:
   - scope:
