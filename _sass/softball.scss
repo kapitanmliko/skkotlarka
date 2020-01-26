@@ -21,17 +21,17 @@
     position: relative;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 401px) {
     .category_tile_wrapper {
         width: 50%;
     }
 }
 
-// @media only screen and (min-width: 980px) {
-//     .category_tile_wrapper {
-//         width: 25%;
-//     }
-// }
+@media only screen and (min-width: 980px) {
+    .category_tile_wrapper {
+        width: 20%;
+    }
+}
 
 .category_tile_img{
     vertical-align: middle;
