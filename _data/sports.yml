@@ -3,7 +3,7 @@
   link: http://www.skkotlarka.net/
 - name: Baseball
   image: ./assets/images/base.png
-  link: /baseball
+  link: https://kotlarka.baseball.cz/
 - name: Softball
   image: ./assets/images/soft.png
   link: /softball
