@@ -47,6 +47,21 @@ body {
 
 .section_content{
   padding: 0px 10px;
+  small{
+    font-size: medium;
+    margin: 0px 0px -30px 0px;
+  }
+  em {
+    font-style: italic;
+  }
+  h2{
+    font: 120% $font-stack2;
+    padding: 0px 0px 20px 0px;
+  }
+  h3{
+    font: 100% $font-stack2;
+    margin-bottom: -20px;
+  }
   p{
     margin: 20px 0px;
     font: 100% $font-stack;

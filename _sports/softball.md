@@ -8,11 +8,11 @@ Staňte se členy pražského klubu Kotlářka Praha! Softball je akční všest
 
 ## NEVÁHEJTE KONTAKTOVAT NAŠE TRENÉRY
 
-**Radek Tláskal** +420 731 688 480
-kategorie žákyň (do 13 let) a kadetek (od 12 do 16 let)
+### Radek Tláskal *+420 731 688 480*
+<small>kategorie žákyň (do 13 let) a kadetek (od 12 do 16 let)</small>
 
-**Miroslav Písař** +420 737 381 499
-kategorie juniorek (od 14 do 21 let) a žen
+### Miroslav Písař *+420 737 381 499*
+<small>kategorie juniorek (od 14 do 21 let) a žen</small>
 
 Kotlářka je klub s více než 40letou tradicí. Aktuálně hledáme hráčky především ročníků 2010, 2011 a 2012 ale vítáni jsou u nás všichni se sportovním nadšením.
 
